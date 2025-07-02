@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pytesseract
+Pillow
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+pyngrok
