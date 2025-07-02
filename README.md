@@ -1,10 +1,10 @@
-# Mini-Gateway Fraud & OCR Detection API
+# 🛡️ Mini-Gateway Fraud & OCR Detection API
 
 This project is a **FastAPI-based fraud detection and OCR microservice**, containerized using Docker. The ML model predicts fraudulent transactions based on features, and the OCR module extracts data from receipt images.
 
 ---
 
-##  Features
+## 🚀 Features
 - Fraud prediction using a trained `RandomForestClassifier`
 - Receipt OCR parsing (Tesseract or similar)
 - Real-time API served via FastAPI (Swagger UI)
@@ -13,7 +13,7 @@ This project is a **FastAPI-based fraud detection and OCR microservice**, contai
 
 ---
 
-##  Model Evaluation
+## 📊 Model Evaluation
 
 | Metric         | Value          |
 |----------------|----------------|
@@ -24,7 +24,7 @@ Class imbalance was handled using **SMOTE**, and feature engineering involved do
 
 ---
 
-##  OCR Notes
+## 🧠 OCR Notes
 
 OCR errors are reduced by:
 - Using regex-based field cleaning
@@ -33,7 +33,7 @@ OCR errors are reduced by:
 
 ---
 
-##  Setup & Run
+## 🛠️ Setup & Run
 
 ### 1. Build Docker Image
 
